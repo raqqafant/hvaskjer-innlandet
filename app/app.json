@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Hva skjer i Innlandet",
+    "slug": "hvaskjer-innlandet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "no.hvaskjer.innlandet"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "no.hvaskjer.innlandet"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "hvaskjer",
+    "plugins": [
+      "expo-router",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "feedUrl": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.local
+__pycache__/
+*.pyc
+feed/out/
+feed/cache/
+feed/fixtures/live/

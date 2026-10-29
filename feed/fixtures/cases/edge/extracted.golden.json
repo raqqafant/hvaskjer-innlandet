@@ -1,0 +1,61 @@
+{
+ "source": "hamar_kulturhus",
+ "label": "Hamar Kulturhus",
+ "town": "Hamar",
+ "today": "2026-10-29",
+ "events": [
+  {
+   "doc_id": "900013",
+   "occurrences": [
+    {
+     "date": "2026-11-20",
+     "time": "20:00",
+     "evidence": "Fredag 20. november 2026\n20:00"
+    }
+   ],
+   "venue": "Koigen, Hamar Kulturhus",
+   "venue_evidence": "Koigen",
+   "free": null,
+   "price_from_nok": null,
+   "price_evidence": null,
+   "status": "cancelled",
+   "category": "comedy",
+   "audience": null,
+   "summary_no": "Standup-kveld i Koigen er avlyst, og kjøpte billetter refunderes.",
+   "summary_en": "The stand-up evening in Koigen is cancelled, and purchased tickets are refunded."
+  },
+  {
+   "doc_id": "900014",
+   "occurrences": [
+    {
+     "date": "2026-11-18",
+     "time": "18:00",
+     "evidence": "Onsdag 18. november 2026\n18:00"
+    }
+   ],
+   "venue": "Biblioteksalen, Hamar Kulturhus",
+   "venue_evidence": "Biblioteksalen",
+   "free": true,
+   "price_from_nok": null,
+   "price_evidence": "Gratis",
+   "status": "scheduled",
+   "category": "talk",
+   "audience": null,
+   "summary_no": "Kunstnersamtale i Biblioteksalen med gratis inngang.",
+   "summary_en": "An artist talk in the library hall with free admission."
+  }
+ ],
+ "skipped": [
+  {
+   "doc_id": "900011",
+   "reason": "no_date"
+  },
+  {
+   "doc_id": "900012",
+   "reason": "past"
+  }
+ ],
+ "failed_docs": [],
+ "from_cache": 0,
+ "cost_usd": 0.0432
+}

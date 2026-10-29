@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "name": "hamar_kulturhus",
+      "label": "Hamar Kulturhus",
+      "town": "Hamar",
+      "kind": "wordpress-api + page text",
+      "home": "https://www.hamar-kulturhus.no/",
+      "terms": "robots.txt allows all (checked 29.10.2026); no reuse terms published. We show title, date, time, venue, price and a link, never the full description.",
+      "enabled": true
+    },
+    {
+      "name": "kunstbanken",
+      "label": "Kunstbanken Hamar",
+      "town": "Hamar",
+      "kind": "pdf programme",
+      "home": "https://kunstbanken.no/",
+      "terms": "robots.txt allows all except /wp-admin/ (checked 29.10.2026). Adapter not built yet.",
+      "enabled": false
+    },
+    {
+      "name": "visit_lillehammer",
+      "label": "Visit Lillehammer (Lillehammer og Gudbrandsdalen)",
+      "town": "Lillehammer",
+      "kind": "html listing (Simpleview)",
+      "home": "https://en.lillehammer.com/whats-on/all-events",
+      "terms": "robots.txt allows general crawlers except some paths (checked 29.10.2026); terms of reuse to be asked. Adapter not built yet.",
+      "enabled": false
+    }
+  ]
+}

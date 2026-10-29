@@ -1,0 +1,102 @@
+{
+ "source": "hamar_kulturhus",
+ "label": "Hamar Kulturhus",
+ "town": "Hamar",
+ "today": "2026-10-29",
+ "events": [
+  {
+   "doc_id": "900001",
+   "occurrences": [
+    {
+     "date": "2026-12-12",
+     "time": "13:00",
+     "evidence": "Lørdag 12. desember 2026\nDørene åpner 12:00\n13:00 - 13:40"
+    }
+   ],
+   "venue": "Multisal Pauline Hall, Hamar Kulturhus",
+   "venue_evidence": "Multisal Pauline Hall",
+   "free": true,
+   "price_from_nok": null,
+   "price_evidence": "Gratis inngang",
+   "status": "scheduled",
+   "category": "family",
+   "audience": "all",
+   "summary_no": "Varm og tradisjonell barneforestilling med sanger og tekster om jula, for alle fra 0 til 100 år.",
+   "summary_en": "A warm, traditional children's show with songs and texts about Christmas, suitable for ages 0 to 100."
+  },
+  {
+   "doc_id": "900002",
+   "occurrences": [
+    {
+     "date": "2026-11-21",
+     "time": null,
+     "evidence": "Lørdag 21. november 2026"
+    }
+   ],
+   "venue": "Storsalen, Hamar Kulturhus",
+   "venue_evidence": "Storsalen",
+   "free": false,
+   "price_from_nok": 100,
+   "price_evidence": "Priser: Hele kvelden kr. 200. Kåseri uten mat kr. 100.",
+   "status": "scheduled",
+   "category": "social",
+   "audience": "all",
+   "summary_no": "En kveld med kåseri, middag og dans for alle som liker gammeldans.",
+   "summary_en": "An evening of talk, dinner and dancing for everyone who enjoys old-time dancing."
+  },
+  {
+   "doc_id": "900003",
+   "occurrences": [
+    {
+     "date": "2026-12-03",
+     "time": "19:30",
+     "evidence": "Torsdag 3. desember 2026\n19:30"
+    }
+   ],
+   "venue": "Storsalen, Hamar Kulturhus",
+   "venue_evidence": "Storsalen",
+   "free": null,
+   "price_from_nok": 450,
+   "price_evidence": "Billetter fra kr 450",
+   "status": "sold_out",
+   "category": "concert",
+   "audience": "adults",
+   "summary_no": "Eva Weel Skram kommer til Hamar med en rolig julekonsert.",
+   "summary_en": "Eva Weel Skram comes to Hamar with a calm Christmas concert."
+  },
+  {
+   "doc_id": "900004",
+   "occurrences": [
+    {
+     "date": "2026-12-06",
+     "time": "15:00",
+     "evidence": "Søndag 6. desember 2026 kl. 15:00"
+    },
+    {
+     "date": "2026-12-12",
+     "time": "18:00",
+     "evidence": "Lørdag 12. desember 2026 kl. 18:00"
+    },
+    {
+     "date": "2026-12-13",
+     "time": "15:00",
+     "evidence": "Søndag 13. desember 2026 kl. 15:00"
+    }
+   ],
+   "venue": "Storsalen, Hamar Kulturhus",
+   "venue_evidence": "Storsalen",
+   "free": null,
+   "price_from_nok": 250,
+   "price_evidence": "Billetter fra kr 250",
+   "status": "scheduled",
+   "category": "dance",
+   "audience": "all",
+   "summary_no": "Danseskolen PS:Dans setter opp julens store klassiker, Nøtteknekkeren.",
+   "summary_en": "The dance school PS:Dans stages the great Christmas classic, The Nutcracker."
+  }
+ ],
+ "skipped": [],
+ "failed_docs": [],
+ "from_cache": 0,
+ "cost_usd": 0.1114
+}

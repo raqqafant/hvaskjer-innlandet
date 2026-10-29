@@ -1,0 +1,48 @@
+name: daily feed
+on:
+  schedule:
+    - cron: "37 4 * * *"   # 04:37 UTC daily; GitHub may start late
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults: { run: { working-directory: feed } }
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      HARNESS_HALT: ${{ vars.HARNESS_HALT }}
+      MAX_RUN_USD: "3.00"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/cache@v4
+        with:
+          path: |
+            feed/cache
+            feed/fixtures/live
+          key: feed-${{ github.run_id }}
+          restore-keys: feed-
+      - run: curl -fsSL https://claude.ai/install.sh | bash
+      - run: PATH="$HOME/.local/bin:$PATH" ./harness/run.sh
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: feed/out/site }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
